@@ -6,13 +6,13 @@ namespace Laba_1
 {
     public static class Generator
     {
-        public static UInt16[] GenerateUInt16(int count)
+        public static string[] GenerateUInt16(int count)
         {
-            var results = new UInt16[count];
+            var results = new string[count];
             var random = new Random();
 
             for (int i = 0; i < count; i++)
-                results[i] = (UInt16)random.Next(UInt16.MaxValue);
+                results[i] = GetFormatedBinary16((UInt16)random.Next(UInt16.MaxValue));
 
             return results;
         }
@@ -20,7 +20,7 @@ namespace Laba_1
         public static string GetFormatedBinary16(UInt16 number)
         {
             var binary = Convert.ToString(number, 2);
-            var formated = new StringBuilder(String.Format("{0, 16}", Convert.ToString(number, 2)));
+            var formated = new StringBuilder(String.Format("{0, 16}", binary));
 
             for (int i = 0; i < formated.Length - binary.Length; i++)
                 formated[i] = '0';
