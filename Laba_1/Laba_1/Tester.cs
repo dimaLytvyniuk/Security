@@ -15,7 +15,7 @@ namespace Laba_1
             for (int i = 0; i < sequenceSize; i++)
             {
                 var frequenceInLine = sequence[i]
-                    .Select(x => Convert.ToInt32(x))
+                    .Select(x => Char.GetNumericValue(x))
                     .Sum();
                 frequence += frequenceInLine / sequence[i].Length;
             }
@@ -25,23 +25,25 @@ namespace Laba_1
 
         public static double DiferialTest(string[] sequence)
         {
-            var countOfChanges = 0;
+            var countOfChanges = 0.0;
 
             foreach (var number in sequence)
             {
+                var countOfChangesInNumber = 0.0;
                 for (int i = 0; i < number.Length - 1; i++)
                 {
-                    if (number[i] != number[i + i])
-                        countOfChanges += 1;
+                        countOfChangesInNumber += number[i] ^ number[i + 1];
                 }
+
+                countOfChanges += countOfChangesInNumber / (number.Length - 1);
             }
 
             return countOfChanges / sequence.Length;
         }
 
-        public static List<Dictionary<int, int>> RangTest(string[] sequence)
+        public static List<Dictionary<int, double>> RangTest(string[] sequence)
         {
-            var result = new List<Dictionary<int, int>>
+            var result = new List<Dictionary<int, double>>
             {
                 RangeTest(sequence, 2),
                 RangeTest(sequence, 3),
@@ -52,32 +54,70 @@ namespace Laba_1
             return result;
         }
 
-        public static Dictionary<int, int> RangeTest(string[] sequence, int window)
+        public static Dictionary<int, double> RangeTest(string[] sequence, int window)
         {
             var maxWindowValue = Math.Pow(2, window);
             var sequenceCount = sequence.Length;
 
-            Dictionary<string, int> combinationsDictionary = Helpers.BinaryStringsForBaseNumber(window).ToDictionary(x => x, x => 0);
+            Dictionary<string, double> combinationsDictionary = Helpers.BinaryStringsForBaseNumber(window).ToDictionary(x => x, x => 0.0);
 
             for (int i = 0; i < sequenceCount; i++)
             {
                 for (int j = 0; j < sequence[i].Length - window; j++)
                 {
-                    combinationsDictionary[sequence[j].Substring(j, window)] += 1;
+                    combinationsDictionary[sequence[i].Substring(j, window)] += 1;
                 }
             }
 
-            var result = new Dictionary<int, int>();
+            var result = new Dictionary<int, double>();
             foreach (var k in combinationsDictionary.Keys)
             {
-                result[Convert.ToInt32(k)] = combinationsDictionary[k] / sequenceCount;
+                result[Convert.ToInt32(k, 2)] = combinationsDictionary[k] / sequenceCount;
             }
             return result;
         }
 
-        public static int TestNotLinear(string[] sequence)
+        public static double TestNotLinear(string[] sequence)
         {
-            return 0;
+            var sequenceLength = sequence.Length;
+            var allLinearComplexities = new int[sequence.Length];
+
+            for (int i = 0; i < sequenceLength; i++)
+                allLinearComplexities[i] = FindNotLinearComplexityForNumber(sequence[i]);
+
+            return allLinearComplexities.Average();
+        }
+
+        public static int FindNotLinearComplexityForNumber(string number)
+        {
+            for (int i = 1; i < number.Length - 2; i++)
+            {
+                if (CheckForNotLinearComplexity(number, i))
+                    return i;
+            }
+
+            return number.Length - 1;
+        }
+
+        public static bool CheckForNotLinearComplexity(string number, int window)
+        {
+            var dict = new Dictionary<string, char>();
+
+            for (int j = 0; j < number.Length - window; j++)
+            {
+                var subSeq = number.Substring(j, window);
+                var nextValue = number[j + window];
+
+                if (dict.TryGetValue(subSeq, out char oldNextValue))
+                {
+                    if (oldNextValue != nextValue)
+                        return false;
+                }
+                else
+                    dict[subSeq] = nextValue;
+            }
+
+            return true;
         }
     }
 }
