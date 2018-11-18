@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/Laba_2/GhostAlgorithm.cs" line="105" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c9599951-255d-4e53-95c0-85cfde6b5c7a" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-593152892">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="5473" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="5473" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Laba_2/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+              <folding>
+                <marker date="1542538187465" expanded="true" signature="6:47" ph="..." />
+                <marker date="1542538187465" expanded="true" signature="65:2340" ph="{...}" />
+                <marker date="1542538187465" expanded="true" signature="85:2338" ph="{...}" />
+                <marker date="1542538187465" expanded="true" signature="181:1476" ph="{...}" />
+                <marker date="1542538187465" expanded="true" signature="1068:1317" ph="/* var encodedString = StringByteConverter.ConvertToString(encodedArray); ... */" />
+                <marker date="1542538187465" expanded="true" signature="1523:1800" ph="{...}" />
+                <marker date="1542538187465" expanded="true" signature="1669:1762" ph="{...}" />
+                <marker date="1542538187465" expanded="true" signature="1861:2332" ph="{...}" />
+                <marker date="1542538187465" expanded="true" signature="2007:2294" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Laba_2/ArithmeticOperations.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+              <folding>
+                <marker date="1542477113539" expanded="true" signature="31:672" ph="{...}" />
+                <marker date="1542477113539" expanded="true" signature="71:670" ph="{...}" />
+                <marker date="1542477113539" expanded="true" signature="140:415" ph="{...}" />
+                <marker date="1542477113539" expanded="true" signature="151:339" ph="/* UInt64 c = a + b; ... */" />
+                <marker date="1542477113539" expanded="true" signature="476:664" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Laba_2/StringByteConverter.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+              <folding>
+                <marker date="1542320529564" expanded="false" signature="6:66" ph="..." />
+                <marker date="1542320529564" expanded="true" signature="84:2618" ph="{...}" />
+                <marker date="1542320529564" expanded="true" signature="123:2616" ph="{...}" />
+                <marker date="1542320529564" expanded="true" signature="198:280" ph="{...}" />
+                <marker date="1542320529564" expanded="true" signature="363:507" ph="{...}" />
+                <marker date="1542320529564" expanded="true" signature="576:1140" ph="{...}" />
+                <marker date="1542320529564" expanded="true" signature="917:1102" ph="{...}" />
+                <marker date="1542320529564" expanded="true" signature="1204:1827" ph="{...}" />
+                <marker date="1542320529564" expanded="true" signature="1315:1659" ph="{...}" />
+                <marker date="1542320529564" expanded="true" signature="1901:2610" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Laba_2/GhostAlgorithm.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1445">
+              <caret line="103" column="12" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="12" />
+              <folding>
+                <marker date="1542542324633" expanded="true" signature="6:47" ph="..." />
+                <marker date="1542542324633" expanded="true" signature="65:6500" ph="{...}" />
+                <marker date="1542542324633" expanded="true" signature="99:6498" ph="{...}" />
+                <marker date="1542542324633" expanded="true" signature="208:795" ph="{...}" />
+                <marker date="1542542324633" expanded="true" signature="556:737" ph="{...}" />
+                <marker date="1542542324633" expanded="true" signature="899:1474" ph="{...}" />
+                <marker date="1542542324633" expanded="true" signature="1235:1416" ph="{...}" />
+                <marker date="1542542324633" expanded="true" signature="1641:2530" ph="{...}" />
+                <marker date="1542542324633" expanded="true" signature="1852:2174" ph="{...}" />
+                <marker date="1542542324633" expanded="true" signature="2697:3610" ph="{...}" />
+                <marker date="1542542324633" expanded="true" signature="2920:3242" ph="{...}" />
+                <marker date="1542542324633" expanded="true" signature="3751:4175" ph="{...}" />
+                <marker date="1542542324633" expanded="true" signature="3921:4054" ph="{...}" />
+                <marker date="1542542324633" expanded="true" signature="4269:4597" ph="{...}" />
+                <marker date="1542542324633" expanded="true" signature="4379:4447" ph="{...}" />
+                <marker date="1542542324633" expanded="true" signature="4490:4559" ph="{...}" />
+                <marker date="1542542324633" expanded="true" signature="4691:5030" ph="{...}" />
+                <marker date="1542542324633" expanded="true" signature="4800:4864" ph="{...}" />
+                <marker date="1542542324633" expanded="true" signature="4918:4992" ph="{...}" />
+                <marker date="1542542324633" expanded="true" signature="5169:5917" ph="{...}" />
+                <marker date="1542542324633" expanded="true" signature="5310:5879" ph="{...}" />
+                <marker date="1542542324633" expanded="true" signature="5535:5753" ph="{...}" />
+                <marker date="1542542324633" expanded="true" signature="5994:6492" ph="{...}" />
+                <marker date="1542542324633" expanded="true" signature="6196:6386" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>`</find>
+      <find>bytes</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>chars</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Laba_2/ArithmeticOperations.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/41FF9904-11FC-44E2-ABB3-76207A9A54A4/bc/f35241d9/Random.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Laba_2/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Laba_2/StringByteConverter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Laba_2/GhostAlgorithm.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Laba_2/ArothmeticOperations.cs" />
+        <option value="$PROJECT_DIR$/Laba_2/StringByteConverter.cs" />
+        <option value="$PROJECT_DIR$/Laba_2/ArithmeticOperations.cs" />
+        <option value="$PROJECT_DIR$/Laba_2/Program.cs" />
+        <option value="$PROJECT_DIR$/Laba_2/GhostAlgorithm.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="950" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Laba_2" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Laba_2" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Laba_2" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Laba_2/bin/Debug/netcoreapp2.1/Laba_2.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Laba_2" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:5000" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Laba_2/Laba_2.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.1" />
+      <browser url="http://localhost:5000" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c9599951-255d-4e53-95c0-85cfde6b5c7a" name="Default Changelist" comment="" />
+      <created>1541947913776</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541947913776</updated>
+      <workItem from="1541947916130" duration="4140000" />
+      <workItem from="1541952280070" duration="449000" />
+      <workItem from="1542051500398" duration="6634000" />
+      <workItem from="1542140585112" duration="3337000" />
+      <workItem from="1542315238697" duration="5027000" />
+      <workItem from="1542474924410" duration="2579000" />
+      <workItem from="1542535691542" duration="5238000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="27404000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2671141" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32765958" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.47517732" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="13" weight="0.32765958" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Laba_2/Program.cs</url>
+          <line>30</line>
+          <properties documentPath="$PROJECT_DIR$/Laba_2/Program.cs" initialLine="30">
+            <startOffsets>
+              <option value="1343" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1374" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="DotNetProject">
+        <watch expression="result" language="C#" custom="RiderImportsList:" />
+        <watch expression="N1 + N2" language="C#" custom="RiderImportsList:" />
+        <watch expression="a &lt;&lt; 11" language="C#" custom="RiderImportsList:" />
+        <watch expression="Math.Pow(2, 32)" language="C#" custom="RiderImportsList:" />
+        <watch expression="random.NextDouble()" language="C#" custom="RiderImportsList:" />
+        <watch expression="UInt64.MaxValue" language="C#" custom="RiderImportsList:" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>UInt64.MaxValue</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>random.NextDouble()</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Math.Pow(2, 32)</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>a &lt;&lt; 11</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>result</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>N1 + N2</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(N1 &lt;&lt; 32) + N2</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Laba_2/ArothmeticOperations.cs" />
+    <entry file="file://$PROJECT_DIR$/Laba_2/StringByteConverter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+          <folding>
+            <marker date="1542320529564" expanded="false" signature="6:66" ph="..." />
+            <marker date="1542320529564" expanded="true" signature="84:2618" ph="{...}" />
+            <marker date="1542320529564" expanded="true" signature="123:2616" ph="{...}" />
+            <marker date="1542320529564" expanded="true" signature="198:280" ph="{...}" />
+            <marker date="1542320529564" expanded="true" signature="363:507" ph="{...}" />
+            <marker date="1542320529564" expanded="true" signature="576:1140" ph="{...}" />
+            <marker date="1542320529564" expanded="true" signature="917:1102" ph="{...}" />
+            <marker date="1542320529564" expanded="true" signature="1204:1827" ph="{...}" />
+            <marker date="1542320529564" expanded="true" signature="1315:1659" ph="{...}" />
+            <marker date="1542320529564" expanded="true" signature="1901:2610" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/41FF9904-11FC-44E2-ABB3-76207A9A54A4/bc/f35241d9/Random.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laba_2/ArithmeticOperations.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding>
+            <marker date="1542477113539" expanded="true" signature="31:672" ph="{...}" />
+            <marker date="1542477113539" expanded="true" signature="71:670" ph="{...}" />
+            <marker date="1542477113539" expanded="true" signature="140:415" ph="{...}" />
+            <marker date="1542477113539" expanded="true" signature="151:339" ph="/* UInt64 c = a + b; ... */" />
+            <marker date="1542477113539" expanded="true" signature="476:664" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laba_2/GhostAlgorithm.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="103" column="12" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="12" />
+          <folding>
+            <marker date="1542542324633" expanded="true" signature="6:47" ph="..." />
+            <marker date="1542542324633" expanded="true" signature="65:6500" ph="{...}" />
+            <marker date="1542542324633" expanded="true" signature="99:6498" ph="{...}" />
+            <marker date="1542542324633" expanded="true" signature="208:795" ph="{...}" />
+            <marker date="1542542324633" expanded="true" signature="556:737" ph="{...}" />
+            <marker date="1542542324633" expanded="true" signature="899:1474" ph="{...}" />
+            <marker date="1542542324633" expanded="true" signature="1235:1416" ph="{...}" />
+            <marker date="1542542324633" expanded="true" signature="1641:2530" ph="{...}" />
+            <marker date="1542542324633" expanded="true" signature="1852:2174" ph="{...}" />
+            <marker date="1542542324633" expanded="true" signature="2697:3610" ph="{...}" />
+            <marker date="1542542324633" expanded="true" signature="2920:3242" ph="{...}" />
+            <marker date="1542542324633" expanded="true" signature="3751:4175" ph="{...}" />
+            <marker date="1542542324633" expanded="true" signature="3921:4054" ph="{...}" />
+            <marker date="1542542324633" expanded="true" signature="4269:4597" ph="{...}" />
+            <marker date="1542542324633" expanded="true" signature="4379:4447" ph="{...}" />
+            <marker date="1542542324633" expanded="true" signature="4490:4559" ph="{...}" />
+            <marker date="1542542324633" expanded="true" signature="4691:5030" ph="{...}" />
+            <marker date="1542542324633" expanded="true" signature="4800:4864" ph="{...}" />
+            <marker date="1542542324633" expanded="true" signature="4918:4992" ph="{...}" />
+            <marker date="1542542324633" expanded="true" signature="5169:5917" ph="{...}" />
+            <marker date="1542542324633" expanded="true" signature="5310:5879" ph="{...}" />
+            <marker date="1542542324633" expanded="true" signature="5535:5753" ph="{...}" />
+            <marker date="1542542324633" expanded="true" signature="5994:6492" ph="{...}" />
+            <marker date="1542542324633" expanded="true" signature="6196:6386" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laba_2/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+          <folding>
+            <marker date="1542538187465" expanded="true" signature="6:47" ph="..." />
+            <marker date="1542538187465" expanded="true" signature="65:2340" ph="{...}" />
+            <marker date="1542538187465" expanded="true" signature="85:2338" ph="{...}" />
+            <marker date="1542538187465" expanded="true" signature="181:1476" ph="{...}" />
+            <marker date="1542538187465" expanded="true" signature="1068:1317" ph="/* var encodedString = StringByteConverter.ConvertToString(encodedArray); ... */" />
+            <marker date="1542538187465" expanded="true" signature="1523:1800" ph="{...}" />
+            <marker date="1542538187465" expanded="true" signature="1669:1762" ph="{...}" />
+            <marker date="1542538187465" expanded="true" signature="1861:2332" ph="{...}" />
+            <marker date="1542538187465" expanded="true" signature="2007:2294" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
