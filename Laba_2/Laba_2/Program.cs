@@ -9,7 +9,7 @@ namespace Laba_2
         
         static void Main(string[] args)
         {
-            string message = "Hello World!";
+            string message = "Hello World!s";
             UInt32[] key = GenerateKey();
             UInt64[] substionTable = GenerateSubstitutionTable();
 
@@ -24,13 +24,10 @@ namespace Laba_2
             string decodedString = StringByteConverter.ConvertToString(decodedArray);
             string helloString = StringByteConverter.ConvertToString(byteArray);
             
-//            var encodedString = StringByteConverter.ConvertToString(encodedArray);
-//            var decodedString = StringByteConverter.ConvertToString(decodedArray);
-//            var helloString = StringByteConverter.ConvertToString(byteArray);
-            
             Console.WriteLine(helloString);
             Console.WriteLine(encodedString);
             Console.WriteLine(decodedString);
+            Console.WriteLine(message.Length);
         }
 
         private static UInt32[] GenerateKey()
@@ -53,8 +50,8 @@ namespace Laba_2
 
             for (var i = 0; i < KeyLength; i++)
             {
-                var leftValue = (UInt32) (random.Next(Int32.MaxValue));
-                var rightValue = (UInt32) (random.Next(Int32.MaxValue));
+                var leftValue = (UInt32)(random.Next(Int32.MaxValue));
+                var rightValue = (UInt32)(random.Next(Int32.MaxValue));
                 result[i] = leftValue;
                 result[i] <<= 32;
                 result[i] |= rightValue;

@@ -6,9 +6,17 @@ namespace Laba_2
 {
     public class StringByteConverter
     {
-        public static UInt16[] ConvertToNumbersArray(string message)
+        public static List<UInt16> ConvertToNumbersArray(string message)
         {
-            return message.Select(x => (UInt16) x).ToArray();
+            var list = message.Select(x => (UInt16) x).ToList();
+
+            if (list.Count % 4 != 0)
+            {
+                for (int i = 0; i < 4 - (list.Count % 4); i++)
+                    list.Add(0);
+            }
+            
+            return list;
         }
 
         public static string ConvertToString(IReadOnlyCollection<UInt16> message)
@@ -20,8 +28,8 @@ namespace Laba_2
 
         public static UInt64[] ConvertToUnit64Array(string message)
         {
-            UInt16[] byteArray = ConvertToNumbersArray(message);
-            var byteArrayLength = byteArray.Length;
+            List<UInt16> byteArray = ConvertToNumbersArray(message);
+            var byteArrayLength = byteArray.Count;
 
             var arrayLength = byteArrayLength % 4 != 0 ? (byteArrayLength / 4 + 1) : (byteArrayLength / 4);
             var result = new UInt64[arrayLength];
@@ -49,8 +57,9 @@ namespace Laba_2
                 chars.Add((UInt16)((message[i] & 0x0000_0000_FFFF_0000) >> 16));
                 chars.Add((UInt16)(message[i] & 0x0000_0000_0000_FFFF));
             }
-            
-            chars.AddRange(ParseLastUInt64(message[message.Length- 1]));
+
+            var last4Chars = ParseLastUInt64(message[message.Length - 1]);
+            chars.AddRange(last4Chars);
 
             //return chars;
             return ConvertToString(chars);

@@ -39,23 +39,26 @@ namespace Laba_2
 
         public static UInt64 Encode64Bits(UInt64 message, Dictionary<int, UInt32> keyDictionary, IReadOnlyDictionary<int, IReadOnlyList<byte>> substiotionDictionary)
         {
-            var N1 = (UInt32) ((message & 0xFFFF_FFFF_0000_000) >> 32);
+            var N1 = (UInt32) ((message & 0xFFFF_FFFF_0000_0000) >> 32);
             var N2 = (UInt32) (message & 0x0000_0000_FFFF_FFFF);
 
-            UInt32 K;
+            var first = N1;
+            var second = N2;
+
+            UInt32 CM1, K, R;
             for (var i = 0; i < 31; i++)
             {
-                K = ArithmeticOperations.AddByMod2In32(N1, keyDictionary[i]);
-                K = MakeSubstition(K, substiotionDictionary);
-                K = ArithmeticOperations.Circlular11LeftShift(K);
-                UInt32 CM2 = K ^ N2;
+                CM1 = ArithmeticOperations.AddByMod2In32(N1, keyDictionary[i]);
+                K = MakeSubstition(CM1, substiotionDictionary);
+                R = ArithmeticOperations.Circlular11LeftShift(K);
+                UInt32 CM2 = N2 ^ R;
                 N2 = N1;
                 N1 = CM2;
             }
-            K = ArithmeticOperations.AddByMod2In32(N1, keyDictionary[31]);
-            K = MakeSubstition(K, substiotionDictionary);
-            K = ArithmeticOperations.Circlular11LeftShift(K);
-            N2 = K ^ N2;
+            CM1 = ArithmeticOperations.AddByMod2In32(N1, keyDictionary[31]);
+            K = MakeSubstition(CM1, substiotionDictionary);
+            R = ArithmeticOperations.Circlular11LeftShift(K);
+            N2 = N2 ^ R;
 
             UInt64 result = N1;
             result <<= 32;
@@ -66,23 +69,23 @@ namespace Laba_2
 
         public static UInt64 Decode64Bits(UInt64 message, Dictionary<int, UInt32> keyDictionary, IReadOnlyDictionary<int, IReadOnlyList<byte>> substiotionDictionary)
         {
-            var N1 = (UInt32) ((message & 0xFFFF_FFFF_0000_000) >> 32);
+            var N1 = (UInt32) ((message & 0xFFFF_FFFF_0000_0000) >> 32);
             var N2 = (UInt32) (message & 0x0000_0000_FFFF_FFFF);
             
-            UInt32 K;
+            UInt32 K, CM1, R;
             for (var i = 0; i < 31; i++)
             {
-                K = ArithmeticOperations.AddByMod2In32(N1, keyDictionary[i]);
-                K = MakeSubstition(K, substiotionDictionary);
-                K = ArithmeticOperations.Circlular11LeftShift(K);
-                UInt32 CM2 = K ^ N2;
+                CM1 = ArithmeticOperations.AddByMod2In32(N1, keyDictionary[i]);
+                K = MakeSubstition(CM1, substiotionDictionary);
+                R = ArithmeticOperations.Circlular11LeftShift(K);
+                UInt32 CM2 = N2 ^ R;
                 N2 = N1;
                 N1 = CM2;
             }
-            K = ArithmeticOperations.AddByMod2In32(N1, keyDictionary[31]);
-            K = MakeSubstition(K, substiotionDictionary);
-            K = ArithmeticOperations.Circlular11LeftShift(K);
-            N2 = K ^ N2;
+            CM1 = ArithmeticOperations.AddByMod2In32(N1, keyDictionary[31]);
+            K = MakeSubstition(CM1, substiotionDictionary);
+            R = ArithmeticOperations.Circlular11LeftShift(K);
+            N2 = N2 ^ R;
             
             UInt64 result = N1;
             result <<= 32;
