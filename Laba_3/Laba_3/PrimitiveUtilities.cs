@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Laba_3
 {
@@ -28,6 +29,35 @@ namespace Laba_3
             }
 
             return 0;
+        }
+        
+        public static UInt16 GetRandomPremetiveRoot(UInt16 p)
+        {
+            var list = new List<UInt16>();
+            
+            int phi = p - 1;
+
+            var primeFactors = FindPrimeFactors(phi);
+
+            for (var r = 2; r <= phi; r++)
+            {
+                bool flag = false;
+                for (var i = 0; i < primeFactors.Count; i++)
+                {
+                    if (ModularPower(r, phi / primeFactors[i], p) == 1)
+                    {
+                        flag = true;
+                        break;
+                    }
+                }
+
+                if (flag == false)
+                    list.Add((UInt16)r);
+            }
+
+            var random = new Random();
+            var randomIndex = random.Next(list.Count);
+            return list[randomIndex];
         }
 
         public static List<int> FindPrimeFactors(int p)
